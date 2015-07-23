@@ -3,3 +3,15 @@ When you initialize a repository, you create one using the command "git init" yo
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is a separate holding area from the working directory. Files come out of the working directory and then are put back in. The value here is that multiple files can be added to the staging area and committed at once.
+
+Git add file_name
+Git commit
+Git status
+
+Git diff --staged : shows the difference between the file in the staging area and repository
+
+Git reset --hard : removes all changes from the working directory and staging area, IS NOT REVERSIBLE!
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area can hold multiple files so if you have multiple files in this area that are affected by the same logical change, you can commit them all at once.
+
