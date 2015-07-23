@@ -1,0 +1,41 @@
+It showed where the bug was.
+
+It could help you to quickly restore old versions rather than pressing the undo
+button many times.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+You could forget to save and lose a large portion of work that you've done.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I think it depends on how things are related. Also, because Google Docs is saving automatically, it wouldn't make sense for it to save files that you aren't working on because you can only edit one file at a time.
+
+How can you use the commands git log and git diff to view the history of files?
+git log - pulls up all of the previous commits
+git diff - type git diff # # of the commits you want to view and this tells you the differences between the two commits
+
+"HEAD" is the commit that you're currently working on.
+
+How might using version control make you more confident to make changes that could break something?
+You might be more willing to experiment if you know that the changes can be easily undone because you can easily restore a previous version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I'd like to try using Git for keeping track of versions of code for the next course project.
+
+Compare two commits, printing each line that is present in one commit but not the other.
+git diff will do this. It takes two arguments - the two commit ids to compare.
+
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+git clone will do this. It takes one argument - the url of the repository to copy.
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+git checkout will do this. It takes one argument - the commit ID to restore.
+
+
+Show the commits made in this repository, starting with the most recent.
+git log will do this. It doesn't take any arguments.
+
+ls -a :  shows the hidden files as well as the normal ls files
+
+git status - shows the changes that have been made since the last commit
+

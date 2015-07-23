@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repository, you create one using the command "git init" you need to do this to get started.
