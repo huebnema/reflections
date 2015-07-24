@@ -28,6 +28,13 @@ The diagrams help to visualize branch structure because you can't actually see w
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result of merging two branches is one branch with all of the combined changes based on what the parent was (ie. adding/removing lines of code). We represent it in the diagram this way because the files diverge at a specific point and then converge at the point of merging.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is good because it speeds up the process, but it could make mistakes. Merging manually would probably catch more mistakes, but it's more time consuming.
+
+Repos will only sync with commits (not staging or working dir)
+
+
+
 
 
 
