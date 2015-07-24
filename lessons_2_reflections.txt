@@ -15,3 +15,19 @@ Git reset --hard : removes all changes from the working directory and staging ar
 How can you use the staging area to make sure you have one commit per logical change?
 The staging area can hold multiple files so if you have multiple files in this area that are affected by the same logical change, you can commit them all at once.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be helpful when looking at different languages or when trying an experiment or perhaps creating another version for an a/b test. Branches help because you have two different versions, and if the experiment fails, you still have the original file. Create a new branch anytime you're starting a new feature. This allows you to start dev on a new feature and then go back and fix a bug on the main branch without losing any of your work.
+
+Running git checkout -b new_branch_name is the same as running:
+  - git branch new_branch_name
+  - git checkout new_branch_name
+
+How do the diagrams help you visualize the branch structure?
+The diagrams help to visualize branch structure because you can't actually see what's happening in git. Therefore, these conceptual maps help you to understand what is happening and develop a mental model.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is one branch with all of the combined changes based on what the parent was (ie. adding/removing lines of code). We represent it in the diagram this way because the files diverge at a specific point and then converge at the point of merging.
+
+
+
+
