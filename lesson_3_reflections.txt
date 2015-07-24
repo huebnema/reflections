@@ -18,3 +18,9 @@ git pull origin master = git fetch origin + git merge master origin/master
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit of having a locally storied version of the remote is if you don't have internet access or want to compare your working file with the remote version.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without using Git or GitHub, I would collaborate by emailing
+code back and forth with individuals or face-to-face interactions.
+This would be harder because oftentimes development teams may have
+different locations, and working face-to-face is not as easy.
+
